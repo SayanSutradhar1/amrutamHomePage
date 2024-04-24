@@ -6,7 +6,7 @@ const Header = () => {
     <div className="flex items-center bg-[#FFF7E2] justify-center py-4">
       <div className="flex items-center w-[80%] justify-between">
         <h1 className="text-green-900 text-4xl font-semibold tracking-[6px]">
-          AMURTUM
+          AMRUTUM
         </h1>
         <nav className="flex gap-6 font-semibold text-xl">
           <Link to={"/"}>Home</Link>
