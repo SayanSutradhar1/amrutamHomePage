@@ -6,7 +6,6 @@ const Header = () => {
       <div className="flex items-center w-[80%] justify-between">
         <h1 className="text-green-900 text-4xl font-semibold tracking-[6px]">
           AMRUTAM
-          
         </h1>
         <nav className="flex gap-6 font-semibold text-xl">
           <NavLink to={"/"} className={({isActive})=>isActive?'text-green-900 font-bold':''} >Home</NavLink>
