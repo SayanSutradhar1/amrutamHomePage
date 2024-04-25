@@ -1,8 +1,17 @@
 import React from 'react'
+import FindDoctorsMain from '../components/FindDoctorsMain'
+import SelectBox from '../components/SelectBox'
+import Checks from '../components/Checks'
+import DoctorCards from '../components/DoctorCards'
 
 const FindDoctors = () => {
   return (
-    <div>FindDoctors</div>
+    <>
+      <FindDoctorsMain/>
+      <SelectBox/>
+      <Checks/>
+      <DoctorCards/>
+    </>
   )
 }
 
